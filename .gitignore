@@ -1,0 +1,23 @@
+# 编译产物（不要提交）
+*.exe
+*.o
+*.obj
+*.out
+a.out
+
+# ★★★ 密钥与环境变量：绝对不要提交 ★★★
+.env
+.env.*
+*.key
+*.pem
+*secret*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.log
